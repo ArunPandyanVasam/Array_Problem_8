@@ -43,7 +43,13 @@ int main(void) {
         printf("%d ", fr[i]);
     }
 
-    printf("The frequency of all elements of an array :");
+    printf("\nThe frequency of all elements of an array : \n");
+
+    for (int i = 0; i < n; ++i) {
+        if (fr[i] != 0) {
+            printf("%d is %d times \n", arr[i], fr[i]);
+        }
+    }
 
 
 
